@@ -1,0 +1,20 @@
+{{#resume.basics}}
+	<h1>{{name}}</h1>
+	<section id="basics">
+		{{#location}}
+			{{#if city}}
+				{{city}}
+			{{/if}}
+			{{#if countryCode}}
+				{{countryCode}}
+			{{/if}}
+			/
+		{{/location}}
+		{{#if phone}}
+			{{phone}} /
+		{{/if}}
+		{{#if email}}
+			{{email}}
+		{{/if}}
+	</section>
+{{/resume.basics}}

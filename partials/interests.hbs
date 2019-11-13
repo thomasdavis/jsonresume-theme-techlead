@@ -1,0 +1,8 @@
+{{#if resume.interests.length}}
+<section id="interests">
+	<div class="title">HOBBIES</div>
+	{{#each resume.interests}}
+			{{name}}{{#unless @last}},{{/unless}}
+	{{/each}}
+</section>
+{{/if}}

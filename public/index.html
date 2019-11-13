@@ -1,0 +1,483 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<title>Thomas Davis</title>
+
+	<style>
+	body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  font-size: 10pt;
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 10mm;
+  margin: 10mm auto;
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 15pt;
+}
+
+p {
+  padding: 0;
+  margin: 2px 0 15px 0;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.endDate,
+.startDate {
+  color: #444;
+}
+section {
+  margin-bottom: 15px;
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div class="page">
+			<h1>Thomas Davis</h1>
+			<section id="basics">
+						Melbourne
+						AU
+					/
+					thomasalwyndavis@gmail.com
+			</section>
+		<section id="work">
+			<br />
+				<div>
+					<strong>
+						Senior Javascript Developer - Blockbid.
+					</strong>
+					  &nbsp;
+						Melbourne,
+				<span class="startDate">
+					2018-03-01
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+				</div>
+				<p>Blockbid is an Australian crypto currency exchange.</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2018-03-01
+					</span>
+					<span class="endDate">
+						- Present
+					</span>
+				</div>
+				<div class="position">
+					Senior Javascript Developer
+				</div>
+				<div class="website">
+					<a href="https://platform.blockbid.io">https://platform.blockbid.io</a>
+				</div>
+				<div class="summary">
+					<p>Blockbid is an Australian crypto currency exchange.</p>
+				</div>
+				<ul class="highlights">
+					<li>React, Apollo, Styled Components</li>
+					<li>Node.js / Rails</li>
+					<li>Docker / Heroku / GCP</li>
+					<li>Used Figma for design and UX work</li>
+					<li>Optimizing markets with tens of millions of rows using SQL </li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Developer - Listium.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2016-01-01
+				</span>
+				<span class="endDate">
+					- 2018-01-01
+				</span>
+				</div>
+				<p>Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2016-01-01
+					</span>
+					<span class="endDate">
+						- 2018-01-01
+					</span>
+				</div>
+				<div class="position">
+					Developer
+				</div>
+				<div class="website">
+					<a href="https://listium.com">https://listium.com</a>
+				</div>
+				<div class="summary">
+					<p>Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)</p>
+				</div>
+				<ul class="highlights">
+					<li>Worked with Postgres, Redis and Dynamodb for storage.</li>
+					<li>Hosted on a mixture of Heroku Apps and EC2 servers.</li>
+					<li>Caching by Fastly and Cloudflare</li>
+					<li>Hybrid app supported on all platforms</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Co-Founder - Cdnjs.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2011-01-08
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+				</div>
+				<p>Following Google’s CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2011-01-08
+					</span>
+					<span class="endDate">
+						- Present
+					</span>
+				</div>
+				<div class="position">
+					Co-Founder
+				</div>
+				<div class="website">
+					<a href="http://www.cdnjs.com">http://www.cdnjs.com</a>
+				</div>
+				<div class="summary">
+					<p>Following Google’s CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.</p>
+				</div>
+				<ul class="highlights">
+					<li>Millions of sites use the CDN in production</li>
+					<li>Larger market share than Yahoo&#x27;s and Microsoft&#x27;s content distribution network</li>
+					<li>We serve hundreds of billions request a month</li>
+					<li>Contains over 3000 popular Javascript libraries</li>
+					<li>Millions of developers visit the site per year</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Developer - Electronic Frontier Foundation.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2014-04-01
+				</span>
+				<span class="endDate">
+					- 2016-01-01
+				</span>
+				</div>
+				<p>Hired to take EFF&#x27;s campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2014-04-01
+					</span>
+					<span class="endDate">
+						- 2016-01-01
+					</span>
+				</div>
+				<div class="position">
+					Developer
+				</div>
+				<div class="website">
+					<a href="http://www.eff.org">http://www.eff.org</a>
+				</div>
+				<div class="summary">
+					<p>Hired to take EFF&#x27;s campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.</p>
+				</div>
+				<ul class="highlights">
+					<li>Developed new tools for contacting congress</li>
+					<li>Brainstormed campaign ideas to raise maximum awareness about issues</li>
+					<li>Lots of social networking integration</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						CTO - Earbits.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2013-03-08
+				</span>
+				<span class="endDate">
+					- 2015-01-09
+				</span>
+				</div>
+				<p>Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2013-03-08
+					</span>
+					<span class="endDate">
+						- 2015-01-09
+					</span>
+				</div>
+				<div class="position">
+					CTO
+				</div>
+				<div class="website">
+					<a href="http://www.earbits.com">http://www.earbits.com</a>
+				</div>
+				<div class="summary">
+					<p>Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.</p>
+				</div>
+				<ul class="highlights">
+					<li>Managed a small team of developers and designers</li>
+					<li>Built the entire frontend application with Backbone.js</li>
+					<li>Transferred all of the infrastructure from Heroku to AWS</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Founder - JSON Resume.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2014-04-01
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+				</div>
+				<p>JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can&#x27;t be a common standard for writing a resume that can be extended with an ecosystem of open source tools.</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2014-04-01
+					</span>
+					<span class="endDate">
+						- Present
+					</span>
+				</div>
+				<div class="position">
+					Founder
+				</div>
+				<div class="website">
+					<a href="http://jsonresume.org">http://jsonresume.org</a>
+				</div>
+				<div class="summary">
+					<p>JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can&#x27;t be a common standard for writing a resume that can be extended with an ecosystem of open source tools.</p>
+				</div>
+				<ul class="highlights">
+					<li>Over 3000 stars on Github</li>
+					<li>Community developed themes</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Developer - Taskforce.is.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2013-06-01
+				</span>
+				<span class="endDate">
+					- 2016-01-01
+				</span>
+				</div>
+				<p>Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was &quot;TheDayWeFightBack&quot;..</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2013-06-01
+					</span>
+					<span class="endDate">
+						- 2016-01-01
+					</span>
+				</div>
+				<div class="position">
+					Developer
+				</div>
+				<div class="website">
+					<a href="http://www.taskforce.is">http://www.taskforce.is</a>
+				</div>
+				<div class="summary">
+					<p>Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was &quot;TheDayWeFightBack&quot;..</p>
+				</div>
+				<ul class="highlights">
+					<li>Generated  37,000,000 banner views</li>
+					<li>100, 000 phone calls to congress</li>
+					<li>500, 000 emails</li>
+					<li>250, 000 signatures</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Co-Founder - Drone Hire.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2013-01-01
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+				</div>
+				<p>An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. </p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2013-01-01
+					</span>
+					<span class="endDate">
+						- Present
+					</span>
+				</div>
+				<div class="position">
+					Co-Founder
+				</div>
+				<div class="website">
+					<a href="http://www.dronehire.org">http://www.dronehire.org</a>
+				</div>
+				<div class="summary">
+					<p>An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. </p>
+				</div>
+				<ul class="highlights">
+					<li>The site and blog combined have managed to receive over 200,000 visitors in 2014.</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Founder - BackboneTutorials.com.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2011-01-01
+				</span>
+				<span class="endDate">
+					- 2014-01-01
+				</span>
+				</div>
+				<p>I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2011-01-01
+					</span>
+					<span class="endDate">
+						- 2014-01-01
+					</span>
+				</div>
+				<div class="position">
+					Founder
+				</div>
+				<div class="website">
+					<a href="http://backbonetutorials.com">http://backbonetutorials.com</a>
+				</div>
+				<div class="summary">
+					<p>I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.</p>
+				</div>
+				<ul class="highlights">
+					<li>Over two million unique visitors a year</li>
+					<li>25,000+ ebook downloads</li>
+					<li>300,000+ Youtube views</li>
+				</ul>
+				 -->
+				<div>
+					<strong>
+						Front-end Developer - Ephox.
+					</strong>
+					  &nbsp;
+				<span class="startDate">
+					2011-01-01
+				</span>
+				<span class="endDate">
+					- 2012-06-01
+				</span>
+				</div>
+				<p>Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.</p>
+				<!-- <div class="date">
+					<span class="startDate">
+						2011-01-01
+					</span>
+					<span class="endDate">
+						- 2012-06-01
+					</span>
+				</div>
+				<div class="position">
+					Front-end Developer
+				</div>
+				<div class="website">
+					<a href="http://ephox.com">http://ephox.com</a>
+				</div>
+				<div class="summary">
+					<p>Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.</p>
+				</div>
+		 -->
+		</section>
+		<section id="education">
+			<div class="title">EDUCATION</div>
+				<div>
+					<strong>The University of Queensland,</strong>
+					<span class="startDate">
+						2008-02-12
+					</span>
+					<span class="endDate">
+						- 2009-12-12
+					</span>
+				</div>
+				Bachelors
+		</section>
+		<section id="awards">
+			<div class="title">AWARDS</div>
+			<div class="item">
+					Defender of the Internet (Fight For The Future)
+			</div>
+		</section>
+		<section id="interests">
+			<div class="title">HOBBIES</div>
+					Gardening,
+					Music,
+					Reading,
+					Open Source
+		</section>
+	</body>
+</html>
